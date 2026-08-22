@@ -117,6 +117,7 @@ static const Key keys[] = {
     {MODKEY, XK_minus, setgaps, {.i = -1}},
     {MODKEY, XK_equal, setgaps, {.i = +1}},
     {MODKEY | ShiftMask, XK_equal, setgaps, {.i = 0}},
+    {MODKEY | ShiftMask, XK_w, spawn, {.v = surf}},
     {ControlMask, XK_F5, spawn, {.v = mutevol}},
     {ControlMask, XK_F6, spawn, {.v = downvol}},
     {ControlMask, XK_F7, spawn, {.v = upvol}},
